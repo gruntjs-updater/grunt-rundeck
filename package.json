@@ -1,0 +1,40 @@
+{
+  "name": "grunt-rundeck",
+  "version": "1.0.0",
+  "description": "invoke a rundeck job and wait for it to finish",
+  "main": "Gruntfile.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:opentable/grunt-rundeck.git"
+  },
+  "keywords": [
+    "grunt",
+    "gruntplugin",
+    "rundeck"
+  ],
+  "author": "Andy Royle <ajroyle@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/opentable/grunt-rundeck/issues"
+  },
+  "homepage": "https://github.com/opentable/grunt-rundeck",
+  "devDependencies": {
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-cli": "^0.1.13",
+    "grunt": "^0.4.4"
+  },
+  "dependencies": {
+    "async": "^0.9.0",
+    "request": "^2.40.0",
+    "xml2js": "^0.4.5"
+  },
+  "peerDependencies": {
+    "grunt": "^0.4.4"
+  }
+}
